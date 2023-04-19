@@ -9,6 +9,7 @@ import Foundation
 import Logging
 import NIO
 import NIOHTTP1
+import NIOFoundationCompat
 import ServiceDiscovery
 
 fileprivate extension Dictionary where Key == String, Value == String {
